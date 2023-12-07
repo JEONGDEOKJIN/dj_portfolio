@@ -49,10 +49,10 @@ const Profile = () => {
             </div>
             <div className="w-[100%] box-border md:w-[70%] md:p-[10px] ">
                 <Hero>
-                    정덕진(JEONGDEOKJIN) <span className="text-[16px] text-slate-400 font-normal">web7722</span>
+                    정덕진 <span className="text-[16px] text-slate-400 font-normal">JEONGDEOKJIN</span>
                 </Hero>
                 <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">
-                    0000000 개발자
+                    나는 이런 저런 개발자 개발자
                 </p>
                 <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
                     <a href="anotheryear.hm@gmail.com" className="flex items-center gap-[5px] text-slate-600">
