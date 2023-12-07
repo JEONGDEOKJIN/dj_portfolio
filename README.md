@@ -58,13 +58,31 @@ npm install react-icons --save
 ## git hub page 설치 설명 블로그 
 https://velog.io/@bami/React-GitHub-Pages%EC%97%90-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0
 
-```sh
-npm install gh-pages
-```
 
 ```json
 build:{
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
 }
+```
+
+
+## 정리 
+```sh
+# package.json 파일 수정 
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "homepage": "https://jeongdeokjin.github.io/dj_portfolio/"
+    }
+
+# 설치 
+npm install gh-pages
+
+# 실행 
+npm run deploy
 ```
