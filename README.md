@@ -67,20 +67,25 @@ build:{
 ```
 
 
-## 정리 
+# github page 배포 정리 
 ```sh
 # package.json 파일 수정 
-    "scripts": {
+    # hompage 경로 
+        "name": "portfolio",
+        "version": "0.1.0",
+        "private": true,
+        "homepage": "https://jeongdeokjin.github.io/dj_portfolio/",
+    
+    # script 
+        "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "homepage": "https://jeongdeokjin.github.io/dj_portfolio/"
-    }
+        "deploy": "gh-pages -d build"
 
-# 설치 
+# 설치 | npm i 했는데 왜 설치가 안 되는 건지 모르겠음.
 npm install gh-pages
 
 # 실행 
