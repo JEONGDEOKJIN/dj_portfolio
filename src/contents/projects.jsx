@@ -1,149 +1,111 @@
+
+
 import { Wrapper, Heading } from '../components/common'
-import { FaExternalLinkAlt } from 'react-icons/fa'
-import { DiJavascript, DiNodejs, DiGithubBadge } from 'react-icons/di'
-import { SiNextdotjs, SiTypescript } from 'react-icons/si'
+import { FaAws, FaChessBoard, FaExternalLinkAlt, FaUserAlt } from 'react-icons/fa'
+import { DiJavascript, DiNodejs, DiGithubBadge, DiPostgresql } from 'react-icons/di'
+import { SiAwsamplify, SiAwsfargate, SiMysql, SiNextdotjs, SiSolidity, SiStyledcomponents, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import { DiTrello } from 'react-icons/di'
 import { DiReact } from 'react-icons/di'
 import useModal from '../hooks/useModal'
 import Modal from '../components/modal'
+import { FaChalkboard, FaFigma, FaRegUser, FaUserCheck } from 'react-icons/fa6'
+import { TfiBlackboard } from 'react-icons/tfi'
+import { MdAdminPanelSettings } from 'react-icons/md'
+import ProjectFirst from './ProjectFirst'
+import ProjectSecond from './ProjectSecond'
+import ProjectThird from './ProjectThird'
+import RenderCarousel from './CarouselDetail'
+import ModalDetail_1 from './STOproject/ModalDetail_1'
+import ModalDetail_2 from './STOproject/ModalDetail_2'
+import ModalDetail_3 from './STOproject/ModalDetail_3'
+import ModalDetail_4 from './STOproject/ModalDetail_4'
+import ModalDetail_5 from './STOproject/ModalDetail_5'
+import ModalNobrokerDetail_2 from './NobrokerProject/ModalNobrokerDetail_2'
+import ModalNobrokerDetail_3 from './NobrokerProject/ModalNobrokerDetail_3'
+import ModalNobrokerDetail_4 from './NobrokerProject/ModalNobrokerDetail_4'
+import MonamiProjectDetail from './MonamiProject/MonamiProjectDetail'
+
+import { Carousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import ProjectFourth from './ProjectFourth'
+import ProjectFith from './ProjectFith'
+import WesAndersonDetail from './WesAnderson/WesAndersonDetail'
+import ProjectSixth from './ProjectSixth'
+
+
 
 const Projects = () => {
     const [isShowingModal, toggleModal] = useModal()
     const [isShowingModal2, toggleModal2] = useModal()
+    const [isShowingModal3, toggleModal3] = useModal()
+    const [isShowingModal4, toggleModal4] = useModal()
+    const [isShowingModal5, toggleModal5] = useModal()
+    const [isShowingModal6, toggleModal6] = useModal()
+
 
     return (
         <Wrapper>
             <Heading>프로젝트</Heading>
 
             <ul className="flex flex-col w-full gap-[120px]">
-                {/* 첫번째 프로젝트 */}
-                <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] ">
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ46OGp74qW6aKXJJYfhbfYniV48BQIVpWHUpDZMzzbg&s"
-                            className="w-full"
-                            alt="어떤어떤 프로젝트"
-                        />
-                        <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
-                            <li className="text-[16px]">팀플 프로젝트 (4명)</li>
-                            <li className="text-stone-500">2023. 12. 06 ~ 현재</li>
-                            <li>front-end</li>
-                            <li>
-                                <button
-                                    onClick={toggleModal}
-                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
-                                >
-                                    상세보기
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="w-full">
-                        <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
-                            NFT 마켓 플레이스(협얍프로젝트){' '}
-                            <a href="https://naver.com">
-                                <FaExternalLinkAlt />
-                            </a>
-                        </h2>
+                
+                <ProjectFirst toggleModal ={toggleModal} />
+                <ProjectSecond toggleModal2 ={toggleModal2} />
+                <ProjectThird toggleModal3 ={toggleModal3} />
+                <ProjectFourth toggleModal4 ={toggleModal4} />
+                <ProjectFith toggleModal5 ={toggleModal5} />
+                <ProjectSixth toggleModal5 ={toggleModal6} />
 
-                        <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
-                            내가 어디 회사랑 협약을 했는데 말이야~ 와 좀만 젊었어도 다 해결했을텐데 말야~ 진짜
-                            어쩌구저쩌구 궁시렁 궁시렁 진짜 해줄거 다해줬는데 안해주네~~~
-                        </p>
-
-                        <h3 className="py-[16px] text-[16px] font-bold">사용 스택</h3>
-                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[32px]">
-                            <DiJavascript />
-                            <DiNodejs />
-                            <DiGithubBadge />
-                            <SiTypescript />
-                            <DiTrello />
-                            <DiReact />
-                            <SiNextdotjs />
-                        </div>
-
-                        <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
-                        <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>
-                                내가 어떤걸 주요하게 했냐 이말이야~ 하나 쯤은 길게 쓸수 있을 거 같지
-                                않니이이이이이이이이이이이이잉이이이이 ?
-                            </li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                        </ul>
-                    </div>
-                </li>
-
-                {/* 첫번째 프로젝트 */}
-                <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] ">
-                        <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ46OGp74qW6aKXJJYfhbfYniV48BQIVpWHUpDZMzzbg&s"
-                            className="w-full"
-                            alt="어떤어떤 프로젝트"
-                        />
-                        <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
-                            <li className="text-[16px]">팀플 프로젝트 (4명)</li>
-                            <li className="text-stone-500">2023. 12. 06 ~ 현재</li>
-                            <li>front-end</li>
-                            <li>
-                                <button
-                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
-                                    onClick={toggleModal2}
-                                >
-                                    상세보기
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="w-full">
-                        <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
-                            NFT 마켓 플레이스(협얍프로젝트){' '}
-                            <a href="https://naver.com">
-                                <FaExternalLinkAlt />
-                            </a>
-                        </h2>
-
-                        <p className="leading-5 text-slate-950 text-[12px] md:text-[16px] md:leading-7">
-                            내가 어디 회사랑 협약을 했는데 말이야~ 와 좀만 젊었어도 다 해결했을텐데 말야~ 진짜
-                            어쩌구저쩌구 궁시렁 궁시렁 진짜 해줄거 다해줬는데 안해주네~~~
-                        </p>
-
-                        <h3 className="py-[16px] text-[16px] font-bold">사용 스택</h3>
-                        <div className="flex flex-row text-[32px] gap-[8px] py-[8px] px-[32px]">
-                            <DiJavascript />
-                            <DiNodejs />
-                            <DiGithubBadge />
-                            <SiTypescript />
-                            <DiTrello />
-                            <DiReact />
-                            <SiNextdotjs />
-                        </div>
-
-                        <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
-                        <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>
-                                내가 어떤걸 주요하게 했냐 이말이야~ 하나 쯤은 길게 쓸수 있을 거 같지
-                                않니이이이이이이이이이이이이잉이이이이 ?
-                            </li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                            <li>내가 어떤걸 주요하게 했냐 이말이야~</li>
-                        </ul>
-                    </div>
-                </li>
             </ul>
 
+            {/* 첫번째 프로젝트 */}
             <Modal show={isShowingModal} onCloseButtonClick={toggleModal}>
-                test
+                {/* <div className='overflow-auto min-h-[70vh]'> */}
+                
+                <div className='overflow-auto h-[70vh] '>
+                    
+                        <ModalDetail_1   />
+                        <ModalDetail_2 />
+                        <ModalDetail_3 />
+                        <ModalDetail_4 />
+                        <ModalDetail_5 />
+                    
+                </div>
+                
+            </Modal>
+            
+            {/* 두번째 프로젝트 */}
+            <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
+                
+            <div className='overflow-auto h-[70vh] '>
+                    <ModalNobrokerDetail_2 />
+                    <ModalNobrokerDetail_3 />
+            </div>
+            </Modal>
+                
+            {/* 세번째 프로젝트 */}
+            <Modal show={isShowingModal3} onCloseButtonClick={toggleModal3}>
+                <div className='overflow-auto h-[70vh] '>
+                    <MonamiProjectDetail /> 
+                </div>
             </Modal>
 
-            <Modal show={isShowingModal2} onCloseButtonClick={toggleModal2}>
-                test2222
+            {/* 네번째 프로젝트 */}
+            <Modal show={isShowingModal4} onCloseButtonClick={toggleModal4}>
+                <div className='overflow-auto h-[70vh] '>
+                    <WesAndersonDetail /> 
+                </div>
             </Modal>
+
+            {/* 다섯번째 프로젝트 */}
+            {/* <Modal show={isShowingModal5} onCloseButtonClick={toggleModal}>
+                <div className='overflow-auto h-[70vh] '>
+                    <WesAndersonDetail /> 
+                </div>
+            </Modal> */}
+
+
+
         </Wrapper>
     )
 }

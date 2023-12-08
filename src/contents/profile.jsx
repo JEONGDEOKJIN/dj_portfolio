@@ -41,7 +41,8 @@ const Profile = () => {
         >
             <div className="w-[280px] md:w-[28%] ">
                 <img
-                    src="./logo192.png"
+                    // src="./JEONGDEOKJIN.jpg"
+                    src={process.env.PUBLIC_URL + '/JEONGDEOKJIN.jpg'}
                     aria-hidden
                     alt="profile image"
                     className="w-[100vw] m-auto rounded-full border-2 border-slate-500"
@@ -52,7 +53,7 @@ const Profile = () => {
                     정덕진 <span className="text-[16px] text-slate-400 font-normal">JEONGDEOKJIN</span>
                 </Hero>
                 <p className="text-slate-700 pt-[5px] md:text-[24px] md:pt-[10px] text-[16px]">
-                    나는 이런 저런 개발자 개발자
+                    견딤으로 쓰임을 만들어내는, 성장하는 개발자 
                 </p>
                 <p className="flex flex-col text-[16px] items-left pt-[7px] md:pt-[5px] md:text-[14px]">
                     <a href="anotheryear.hm@gmail.com" className="flex items-center gap-[5px] text-slate-600">
@@ -64,11 +65,11 @@ const Profile = () => {
                         className="flex items-center gap-[5px] text-slate-600"
                     >
                         <IoLogoGithub />
-                        JEONGDEOKJIN
+                        git_JEONGDEOKJIN
                     </a>
-                    <a href="https://tistory.com" className="flex items-center gap-[5px] text-slate-600">
+                    <a href="https://deokjin.gitbook.io/dj_dev" className="flex items-center gap-[5px] text-slate-600">
                         <FaBlogger />
-                        blog...
+                        Blog
                     </a>
                 </p>
             </div>

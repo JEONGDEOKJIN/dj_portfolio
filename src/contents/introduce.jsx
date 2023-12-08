@@ -15,8 +15,8 @@ const Introduce = () => {
             <div className="flex flex-col gap-[16px] w-full items-center">
                 <RiDoubleQuotesL />
                 <div className="text-center text-[16px] md:text-[24px]">
-                    <p>나는 대가리가 깨져도 블록체인을 할꺼야</p>
-                    <p>음 나는 지금 너무 쉬고싶어~</p>
+                    <p>새로운 기술로 '효율성'을 높일 때 희열을 느낍니다. </p>
+                    <p>'좋은 잔상'을 남기는 프론트를 만들겠습니다. </p>
                 </div>
                 <RiDoubleQuotesR />
             </div>

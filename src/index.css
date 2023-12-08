@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import 'flowbite';
+
+
+body {
+    font-family: 'Pretendard-Regular';
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    border-radius: 8px; /* 둥근 모서리의 크기 조정 */
+    width: 10px;
+  }
+  
+  /* 스크롤바 트랙(경로)에 대한 스타일 */
+  ::-webkit-scrollbar-track {
+    border-radius: 8px; /* 둥근 모서리의 크기 조정 */
+    background: #fcfcfc;
+  }
+  
+  /* 스크롤바 핸들(스크롤 막대)에 대한 스타일 */
+  ::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    border-radius: 8px;
+  }
+  
+  /* 스크롤바 호버 */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f0eded;
+  }
+
+

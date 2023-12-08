@@ -5,6 +5,8 @@ import Projects from './contents/projects'
 import Skills from './contents/skills'
 import Footer from './contents/footer'
 
+
+
 function App() {
     return (
         <div className="w-full h-full bg-gradient-to-b to-white from-gray-50">
