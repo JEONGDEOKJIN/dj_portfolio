@@ -135,7 +135,7 @@ const Skills = () => {
                                 <span className="md:w-[120px]">NextJS</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>Client Component 와 Servier component 의 장단점 이해하여 최적화 노력</li>
+                                <li>Client Component 와 Servier component 최적화 사용</li>
                                 <li>클라이언트 컴포넌트에서는 useParams, 서버 컴포넌트에서는 searchParams 를 사용하여 동적 라우팅 사용</li>
                                 <li>web3 연결시 SSR 특징을 고려하여 연결 최적화</li>
                             </ul>
@@ -154,7 +154,7 @@ const Skills = () => {
                                 <span className="md:w-[120px]">Express</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
-                                <li>API 설계 및 CRUD 게시판 작성 경험</li>
+                                <li>RESTful API 설계 및 CRUD 게시판 작성 경험</li>
                             </ul>
                         </li>
                     </ul>

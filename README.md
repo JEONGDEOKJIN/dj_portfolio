@@ -91,3 +91,19 @@ npm install gh-pages
 # 실행 
 npm run deploy
 ```
+
+
+
+# 프로젝트 시작하려면 
+
+``` bash 
+# 1. 로컬에서 프로젝트 열기 
+npm start
+
+# 2. 로컬에서 수정하고 빌드하기
+npm build 
+
+# 3. 빌드된 것 배포하기 
+npm run deploy
+
+```

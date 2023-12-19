@@ -18,7 +18,7 @@ const ProjectFirst = ({toggleModal}) => {
                         <img
                             src={process.env.PUBLIC_URL + '/admin_main.jpg'}
                             className="w-full"
-                            alt="어떤어떤 프로젝트"
+                            alt="기업 협약 프로젝트"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">기업 협약 프로젝트 (5명)</li>
