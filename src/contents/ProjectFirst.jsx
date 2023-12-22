@@ -14,15 +14,16 @@ const ProjectFirst = ({toggleModal}) => {
     <>
     {/* 첫번째 프로젝트 */}
     <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] ">
+                    <div className="w-full md:w-[420px] cursor-pointer"  >
                         <img
+                            onClick={toggleModal}
                             src={process.env.PUBLIC_URL + '/admin_main.jpg'}
                             className="w-full"
                             alt="기업 협약 프로젝트"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
-                            <li className="text-[16px]">기업 협약 프로젝트 (5명)</li>
-                            <li className="text-stone-500">2023. 11. 01 ~ 12. 05</li>
+                            <li onClick={toggleModal} className="text-[16px]">기업 협약 프로젝트 (5명)</li>
+                            <li onClick={toggleModal} className="text-stone-500">2023. 11. 01 ~ 12. 05</li>
                             <li>front-end</li>
                             <li>
                                 <button
@@ -31,6 +32,18 @@ const ProjectFirst = ({toggleModal}) => {
                                 >
                                     상세보기
                                 </button>
+                                <a
+                                    href={'https://bs.admin.bouncesto.site/admin/dashboard'}
+                                    className="ml-2 px-[16px] py-[10px] bg-slate-500 rounded-[8px] text-white hover:bg-gray-950"
+                                >
+                                    Admin Page
+                                </a>
+                                <a
+                                    href={'https://bouncesto.site/home'}
+                                    className="ml-2 px-[16px] py-[10px] bg-slate-500 rounded-[8px] text-white hover:bg-gray-950"
+                                >
+                                    User Page
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +60,7 @@ const ProjectFirst = ({toggleModal}) => {
                             
                             <a
                                 className="flex flex-col items-center justify-center w-10 h-10 hover:bg-indigo-100 "
-                                href="https://bs.admin.bouncesto.site/admin/dashboard"
+                                href="https://bouncesto.site/home"
                             >
                                 {/* <FaRegUser /> */}
                                 <FaExternalLinkAlt className="text-neutral-900" size={13} />
@@ -78,11 +91,11 @@ const ProjectFirst = ({toggleModal}) => {
 
                         <h3 className="py-[16px] text-[16px] font-bold ">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                            <li>[기획] figma 활용하여 사용자 및 어드민 시나리오 및 UI 제작 (기여도 100%) </li>
+                            <li>[기획] figma 활용하여 사용자 및 어드민 시나리오 및 UI 제작  </li>
 
                             <li className="mt-1">
                                 {' '}
-                                [프론트] Admin (기여도 100%)
+                                [프론트] Admin 
                                 <li className="ml-10">
                                     [대시보드] chart.js 활용하여 '기간별 거래금액' 등의 '차트' 구현
                                 </li>
@@ -100,7 +113,7 @@ const ProjectFirst = ({toggleModal}) => {
 
                             <li className="mt-1">
                                 [백엔드]
-                                <li className="ml-10">공지사항, 사용자 정보 조회 기능 구현 (기여도 60%) </li>
+                                <li className="ml-10">공지사항, 사용자 정보 조회 기능 구현  </li>
                             </li>
                         </ul>
 

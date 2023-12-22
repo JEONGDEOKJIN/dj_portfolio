@@ -29,7 +29,7 @@ const MonamiProjectDetail = () => {
                         <li> 페이지 네이션 기능 </li>
                         <li> 게시판 목록 보여주기 기능 </li>
                         <li> 좋아요 기능 </li>
-                        <li> 태그 검색 기능 </li>
+                        <li> 태그 검색 및 추가 기능 </li>
                         <li> 정렬 (최신순, 조회수, likes 순) 기능 </li>
                     </ul>
 

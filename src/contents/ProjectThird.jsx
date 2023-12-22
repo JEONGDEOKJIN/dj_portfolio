@@ -8,7 +8,7 @@ const ProjectThird = ({toggleModal3}) => {
   return (
     <>
                     <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] ">
+                    <div className="w-full md:w-[420px] cursor-pointer" onClick={toggleModal3}>
                         <img
                             src={process.env.PUBLIC_URL + '/monami_boardList.gif'}
                             className="w-full"
@@ -17,7 +17,7 @@ const ProjectThird = ({toggleModal3}) => {
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]">Node.js 프로젝트 (4명)</li>
                             <li className="text-stone-500">2023. 06. 07 ~ 2023. 06. 25</li>
-                            <li>front-end</li>
+                            <li>front-end , back-end</li>
                             <li>
                                 <button
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
@@ -58,7 +58,7 @@ const ProjectThird = ({toggleModal3}) => {
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
 
-                            <li>게시판 목록 페이지 (기여도 100%)</li>
+                            <li>게시판 목록 페이지 </li>
                             
                                 <li className='ml-10'>프론트</li>   
                                     <li className='ml-20'>게시글 글쓰기 기능</li>

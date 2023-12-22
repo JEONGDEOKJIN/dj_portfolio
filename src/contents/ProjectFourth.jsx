@@ -8,8 +8,8 @@ const ProjectFourth = ({toggleModal4}) => {
     
   return (
     <>
-                    <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] ">
+                    <li className="flex flex-col gap-[32px] md:flex-row" >
+                    <div className="w-full md:w-[420px] cursor-pointer" onClick={toggleModal4}>
                         <img
                             src={process.env.PUBLIC_URL + '/wesAndersonMain.gif'}
                             className="w-full"
@@ -58,20 +58,13 @@ const ProjectFourth = ({toggleModal4}) => {
 
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-
-                            <li>게시판 목록 페이지 (기여도 100%)</li>
-                            
-                                <li className='ml-10'>프론트</li>   
-                                    <li className='ml-20'>게시글 글쓰기 기능</li>
-                                    <li className='ml-20'>페이지 네이션 기능 </li>
-                                    <li className='ml-20'>게시판 목록 보여주기 기능</li>
-                                    <li className='ml-20'>좋아요 기능 </li>
-                                    <li className='ml-20'>태그 검색 기능</li>
-                                    <li className='ml-20'>정렬 (최신순, 조회수, likes 순) 기능</li>
-                                
-                                <li className='ml-10'>백엔드</li>    
-                                    <li className='ml-20'>게시글 및 댓글 CRUD 기능</li>                                
-                            
+                                                        
+                                <li> 메인 페이지 디자인 </li>
+                                <li> 메인 페이지 목차 및 드롭다운 기능 구현 </li>
+                                <li> 메인 페이지 css 애니메이션 구현 </li>
+                                <li> 메인 페이지 swiper 기능 </li>
+                                <li> medeia query 활용 웹앱 반응형 사이트 구현  </li>
+                        
                         </ul>
                     </div>
                 </li>

@@ -11,7 +11,7 @@ const ProjectSixth = ({toggleModal6}) => {
                     <li className="flex flex-col gap-[32px] md:flex-row">
                     <div className="w-full md:w-[420px] ">
                         <img
-                            src={process.env.PUBLIC_URL + '/REVISIONIZE.gif'}
+                            src={process.env.PUBLIC_URL + '/venus.gif'}
                             className="w-full"
                             alt="어떤어떤 프로젝트"
                         />

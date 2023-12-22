@@ -9,16 +9,17 @@ const ProjectSecond = ({toggleModal2}) => {
     <>
                     {/* 두번째 프로젝트 */}
                     <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] ">
+                    <div className="w-full md:w-[420px] cursor-pointer"  >
                         <img
+                            onClick={toggleModal2}
                             src={process.env.PUBLIC_URL + '/nobroker_estateList.gif'}
                             className="w-full"
                             alt="어떤어떤 프로젝트"
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
-                            <li className="text-[16px]">React 프로젝트 (4명)</li>
-                            <li className="text-stone-500">2023. 07. 28 ~ 2023. 08. 28</li>
-                            <li>front-end</li>
+                            <li onClick={toggleModal2} className="text-[16px]">React 프로젝트 (4명)</li>
+                            <li onClick={toggleModal2} className="text-stone-500">2023. 07. 28 ~ 2023. 08. 28</li>
+                            <li>front-end , back-end</li>
                             <li>
                                 <button
                                     className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
@@ -26,6 +27,12 @@ const ProjectSecond = ({toggleModal2}) => {
                                 >
                                     상세보기
                                 </button>
+                                <a
+                                    href={'http://ec2-3-37-244-154.ap-northeast-2.compute.amazonaws.com/'}
+                                    className="ml-2 px-[16px] py-[10px] bg-slate-500 rounded-[8px] text-white hover:bg-gray-950"
+                                >
+                                    Visit Page
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -35,7 +42,7 @@ const ProjectSecond = ({toggleModal2}) => {
                         
                             <a 
                                 className='flex items-center justify-center w-10 h-10 hover:bg-indigo-100'
-                                href="https://youtu.be/g36ussMKr9A">
+                                href="http://ec2-3-37-244-154.ap-northeast-2.compute.amazonaws.com/">
                                 {/* <FaExternalLinkAlt /> */}
                                 <FaExternalLinkAlt />
                             </a>
@@ -61,7 +68,7 @@ const ProjectSecond = ({toggleModal2}) => {
                         <h3 className="py-[16px] text-[16px] font-bold">주요 업무</h3>
                         <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
 
-                            <li>매물 목록 페이지 (기여도 100%)</li>
+                            <li>매물 목록 페이지 </li>
                             
                                 <li className='ml-10'>프론트</li>    
                                     <li className='ml-20'>등록된 매물의 구매 목록 리스트로 보여주기</li>
@@ -73,13 +80,13 @@ const ProjectSecond = ({toggleModal2}) => {
                                 <li className='ml-10'>백엔드</li>    
                                     <li className='ml-20'>드롭 다운 필터 사항 반영하여 where 조건 만족하는 조회 기능 구현 </li>
 
-                            <li>어드민 페이지 (기여도 100%)</li>
+                            <li>어드민 페이지 </li>
                             
                                 <li className='ml-10'>[프론트] 판매 업자 인증 버튼 클릭시, 변경 post 요청 구현</li>    
                                 <li className='ml-10'>[백엔드] 클릭된 유저의 certificate 속성 update 하기 </li>    
 
                                 
-                            <li> 배포 (기여도 50%) </li>
+                            <li> 배포 </li>
                                 <li className='ml-10'> NGINX 등을 이용하여 AWS EC2 에 프로젝트 배포 </li>    
 
 

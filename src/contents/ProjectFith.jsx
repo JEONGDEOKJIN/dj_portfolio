@@ -9,7 +9,7 @@ const ProjectFith = ({toggleModal5}) => {
   return (
     <>
                     <li className="flex flex-col gap-[32px] md:flex-row">
-                    <div className="w-full md:w-[420px] ">
+                    <div className="w-full md:w-[420px] cursor-pointer" onClick={toggleModal5} >
                         <img
                             src={process.env.PUBLIC_URL + '/REVISIONIZE.gif'}
                             className="w-full"

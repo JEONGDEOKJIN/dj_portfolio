@@ -36,6 +36,8 @@ import ProjectSixth from './ProjectSixth'
 
 const Projects = () => {
     const [isShowingModal, toggleModal] = useModal()
+    const [isShowingModalURL, toggleModalURL] = useModal()
+
     const [isShowingModal2, toggleModal2] = useModal()
     const [isShowingModal3, toggleModal3] = useModal()
     const [isShowingModal4, toggleModal4] = useModal()
@@ -66,8 +68,8 @@ const Projects = () => {
                     
                         <ModalDetail_1   />
                         <ModalDetail_2 />
-                        <ModalDetail_3 />
-                        <ModalDetail_4 />
+                        {/* <ModalDetail_3 /> */}
+                        {/* <ModalDetail_4 /> */}
                         <ModalDetail_5 />
                     
                 </div>

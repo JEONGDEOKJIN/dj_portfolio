@@ -1,6 +1,7 @@
 import { Wrapper, Heading } from '../components/common'
-import { DiJavascript, DiNodejs, DiGithubBadge, DiAws } from 'react-icons/di'
+import { DiJavascript, DiNodejs, DiGithubBadge, DiAws, DiGit } from 'react-icons/di'
 import { FaAws, FaFigma, FaNodeJs } from 'react-icons/fa'
+import { FaGit } from 'react-icons/fa6'
 import { SiNextdotjs, SiTypescript, SiJavascript, SiExpress, SiReact, SiReactos, SiNodedotjs, SiAwsamplify, SiSolidity } from 'react-icons/si'
 
 const Skills = () => {
@@ -82,7 +83,7 @@ const Skills = () => {
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
                             <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
                                 <FaAws />
-                                <span className="md:w-[120px]"> aws </span>
+                                <span className="md:w-[120px]"> AWS </span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li> EC2 활용하여 React 프로젝트 배포 경험 </li>
@@ -91,8 +92,8 @@ const Skills = () => {
                         
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
                             <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
-                                <FaAws />
-                                <span className="md:w-[120px]"> git </span>
+                                <FaGit />
+                                <span className="md:w-[120px]"> Git </span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li> git 활용하여 버전관리 및 프로젝트 관리 </li>
@@ -102,7 +103,7 @@ const Skills = () => {
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">
                             <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
                                 <FaFigma />
-                                <span className="md:w-[120px]"> figma </span>
+                                <span className="md:w-[120px]"> Figma </span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li> 컴포넌트 재사용성과 UX 를 고려한 UI 기획 </li>
@@ -145,7 +146,7 @@ const Skills = () => {
 
                 <li className="flex flex-row gap-[32px] py-[32px]">
                     <h3 className="text-[16px] md:text-[24px] font-extrabold md:font-semibold w-[20%] basisc-[25%]">
-                        백앤드
+                        BackEnd
                     </h3>
                     <ul className="flex flex-col gap-[16px] text-[16px] pb-[32px] font-medium w-full items-start">
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-baseline">

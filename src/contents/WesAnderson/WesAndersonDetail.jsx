@@ -27,6 +27,8 @@ const WesAndersonDetail = () => {
                     <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
                         <li> 메인 페이지 디자인 </li>
                         <li> 메인 페이지 목차 및 드롭다운 기능 구현 </li>
+                        <li> 메인 페이지 css 애니메이션 구현 </li>
+                        <li> 메인 페이지 swiper 기능 </li>
                         <li> medeia query 활용 웹앱 반응형 사이트 구현  </li>
                     </ul>
 
