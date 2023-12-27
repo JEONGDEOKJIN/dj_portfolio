@@ -25,11 +25,11 @@ const WesAndersonDetail = () => {
 
                     <h3 className="py-[16px] text-[16px] font-bold mt-6">메인 페이지</h3>
                     <ul className="px-[32px] leading-8 list-disc list-outside text-[12px] md:text-[16px]">
-                        <li> 메인 페이지 디자인 </li>
-                        <li> 메인 페이지 목차 및 드롭다운 기능 구현 </li>
-                        <li> 메인 페이지 css 애니메이션 구현 </li>
-                        <li> 메인 페이지 swiper 기능 </li>
-                        <li> medeia query 활용 웹앱 반응형 사이트 구현  </li>
+                        <li> 메인 페이지 UI/UX 디자인 </li>
+                        <li> 메인 페이지 onclick 속성 활용하여 목차 및 드롭다운 기능 구현 </li>
+                        <li> 메인 페이지 css transition 활용하여 애니메이션 구현 </li>
+                        <li> 메인 페이지 바닐라 javascript 활용하여 swiper 기능 구현 </li>
+                        <li> medeia query 활용 데스크톱 및 모바일 기기에서 사용 가능한 웹앱 반응형 사이트 구현  </li>
                     </ul>
 
                 </div>

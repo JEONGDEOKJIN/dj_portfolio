@@ -17,7 +17,7 @@ const ProjectSixth = ({toggleModal6}) => {
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]"> 팀 프로젝트</li>
-                            <li className="text-stone-500">2023. 10. 10 ~ 2023. 11. 10</li>
+                            <li className="text-stone-500">2022. 10. 10 ~ 2022. 11. 10</li>
                             <li>3D 배경 및 2D 애셋 제작</li>
                             <li>
                                 <button

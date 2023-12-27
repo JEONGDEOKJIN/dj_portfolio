@@ -71,11 +71,11 @@ const ProjectSecond = ({toggleModal2}) => {
                             <li>매물 목록 페이지 </li>
                             
                                 <li className='ml-10'>프론트</li>    
-                                    <li className='ml-20'>등록된 매물의 구매 목록 리스트로 보여주기</li>
+                                    <li className='ml-20'>data fetch 후 데이터 바인딩을 통해 등록된 매물의 구매 목록 리스트로 보여주기</li>
                                     <li className='ml-20'>google api 내 Autocomplete 기능 사용하여 자동검색 기능 및 마커 구현 </li>
                                     <li className='ml-20'>google api 내 MarkerClusterer 기능 이용하여 개별 마커를 클러스터로 표현</li>
-                                    <li className='ml-20'>방 종류, 크기, 가격 드롭다운 버튼 클릭시 해당 정보 필터링 기능 구현</li>
-                                    <li className='ml-20'>key color 반영하여 구글맵 색상 및 마커 커스텀</li>
+                                    <li className='ml-20'>방 종류, 크기, 가격 드롭다운 버튼 클릭시 data fetch 한 후 해당 변수에만 useEffect 의존성을 설정하여 정보 필터링 기능 구현</li>
+                                    <li className='ml-20'>key color 반영하여 구글맵 색상 및 마커 변경 후 커스텀 맵 제작</li>
                                 
                                 <li className='ml-10'>백엔드</li>    
                                     <li className='ml-20'>드롭 다운 필터 사항 반영하여 where 조건 만족하는 조회 기능 구현 </li>

@@ -17,7 +17,7 @@ const ProjectFith = ({toggleModal5}) => {
                         />
                         <ul className="flex text-[12px] text-slate-600 py-[8px] gap-[8px] flex-row md:flex-col items-center md:items-start">
                             <li className="text-[16px]"> 팀 프로젝트</li>
-                            <li className="text-stone-500">2023. 08. 10 ~ 2023. 09. 10</li>
+                            <li className="text-stone-500">2022. 08. 10 ~ 2022. 09. 10</li>
                             <li>3D 배경 및 2D 애셋 제작</li>
                             <li>
                                 <button
@@ -31,7 +31,7 @@ const ProjectFith = ({toggleModal5}) => {
                     </div>
                     <div className="w-full">
                         <h2 className="flex flex-row items-center gap-[8px] text-[16px] text-slate-800 md:text-black md:text-[24px] font-semibold pb-[16px]">
-                        [인공지능 콘텐츠 창작] 부여 세계유산 미디어아트 페스티벌
+                        Revisionize (부여 세계유산 미디어아트 페스티벌 출품)
                             
                             <a 
                                 className='flex items-center justify-center w-10 h-10 hover:bg-indigo-100'

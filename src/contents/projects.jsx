@@ -55,8 +55,8 @@ const Projects = () => {
                 <ProjectSecond toggleModal2 ={toggleModal2} />
                 <ProjectThird toggleModal3 ={toggleModal3} />
                 <ProjectFourth toggleModal4 ={toggleModal4} />
-                <ProjectFith toggleModal5 ={toggleModal5} />
                 <ProjectSixth toggleModal5 ={toggleModal6} />
+                <ProjectFith toggleModal5 ={toggleModal5} />
 
             </ul>
 
@@ -105,8 +105,6 @@ const Projects = () => {
                     <WesAndersonDetail /> 
                 </div>
             </Modal> */}
-
-
 
         </Wrapper>
     )

@@ -61,12 +61,18 @@ const ProjectThird = ({toggleModal3}) => {
                             <li>게시판 목록 페이지 </li>
                             
                                 <li className='ml-10'>프론트</li>   
-                                    <li className='ml-20'>게시글 글쓰기 기능</li>
-                                    <li className='ml-20'>페이지 네이션 기능 </li>
-                                    <li className='ml-20'>게시판 목록 보여주기 기능</li>
-                                    <li className='ml-20'>좋아요 기능 </li>
-                                    <li className='ml-20'>태그 검색 기능</li>
-                                    <li className='ml-20'>정렬 (최신순, 조회수, likes 순) 기능</li>
+                                    <li className='ml-20'>게시글 글쓰기 기능 </li>
+                                    <li className='ml-20'>페이지 네이션 기능  </li>
+                                    <li className='ml-20'>게시판 목록 보여주기 기능 </li>
+                                    <li className='ml-20'>좋아요 기능  </li>
+                                    <li className='ml-20'>태그 검색 기능  </li>
+                                    <li className='ml-20'>정렬 (최신순, 조회수, likes 순) 기능 </li>
+                                    {/* <li className='ml-20'>게시글 글쓰기 기능 : form 태그에 게시글 작성 후 완료 버튼 누르면, POST 요청을 보내고 게시글 목록 페이지로 리디렉션 될 수 있게 구현</li>
+                                    <li className='ml-20'>페이지 네이션 기능 : 특정 페이지 클릭시, 해당 페이지의 데이터만 fetch 될 수 있게 구현 </li>
+                                    <li className='ml-20'>게시판 목록 보여주기 기능 : data fetch 된 후, useEffect 의 의존성 설정된 변수에 데이터가 업데이트되면 렌더링 될 수 있게 구현</li>
+                                    <li className='ml-20'>좋아요 기능 : likes 테이블을 별도로 설정하여, 해당 버튼 클릭시 게시글 및 좋아요 테이블을 참조할 수 있게 구현 </li>
+                                    <li className='ml-20'>태그 검색 기능 :  sequelize 상에서 검색된 요청 데이터를 포함하는 데이터만 가공하여 전달 </li>
+                                    <li className='ml-20'>정렬 (최신순, 조회수, likes 순) 기능 : sequelize 상에서 정렬된 데이터를 DB 에서 호출하여 프론트로 전달하여 구현</li> */}
                                 
                                 <li className='ml-10'>백엔드</li>    
                                     <li className='ml-20'>게시글 및 댓글 CRUD 기능</li>                                
