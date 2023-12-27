@@ -106,7 +106,7 @@ npm build
 # 3. 빌드된 것 배포하기 
 npm run deploy
 
-# 4. https://github.com/JEONGDEOKJIN/dj_portfolio 푸쉬 하기 
+# 4. https://github.com/JEONGDEOKJIN/dj_portfolio commit -> 푸쉬 하기 
 
 # 5. 변경 확인 
 

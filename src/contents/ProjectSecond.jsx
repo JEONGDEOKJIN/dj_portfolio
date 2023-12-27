@@ -31,7 +31,7 @@ const ProjectSecond = ({toggleModal2}) => {
                                     href={'http://ec2-3-37-244-154.ap-northeast-2.compute.amazonaws.com/'}
                                     className="ml-2 px-[16px] py-[10px] bg-slate-500 rounded-[8px] text-white hover:bg-gray-950"
                                 >
-                                    Visit Page
+                                    Visit page
                                 </a>
                             </li>
                         </ul>

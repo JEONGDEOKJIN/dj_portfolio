@@ -19,13 +19,13 @@ const ProjectFith = ({toggleModal5}) => {
                             <li className="text-[16px]"> 팀 프로젝트</li>
                             <li className="text-stone-500">2022. 08. 10 ~ 2022. 09. 10</li>
                             <li>3D 배경 및 2D 애셋 제작</li>
-                            <li>
-                                <button
-                                    className="px-[16px] py-[8px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
-                                    onClick={toggleModal5}
+                            <li className='mt-2'>
+                                <a
+                                    className="px-[16px] py-[10px] bg-gray-800 rounded-[8px] text-white hover:bg-gray-950"
+                                    href="https://youtu.be/icHKSK9G-Eo?si=q0UwXhR6ATuH6IQF"
                                 >
-                                    상세보기
-                                </button>
+                                    영상 상세보기
+                                </a>
                             </li>
                         </ul>
                     </div>

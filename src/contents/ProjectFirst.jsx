@@ -36,13 +36,13 @@ const ProjectFirst = ({toggleModal}) => {
                                     href={'https://bs.admin.bouncesto.site/admin/dashboard'}
                                     className="ml-2 px-[16px] py-[10px] bg-slate-500 rounded-[8px] text-white hover:bg-gray-950"
                                 >
-                                    Admin Page
+                                    Admin page
                                 </a>
                                 <a
                                     href={'https://bouncesto.site/home'}
                                     className="ml-2 px-[16px] py-[10px] bg-slate-500 rounded-[8px] text-white hover:bg-gray-950"
                                 >
-                                    User Page
+                                    User page
                                 </a>
                             </li>
                         </ul>
