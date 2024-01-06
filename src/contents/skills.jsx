@@ -127,7 +127,7 @@ const Skills = () => {
                         <li className="flex flex-col gap-[8px] md:gap-[32px] md:flex-row items-start">
                             <span className="text-[16px] text-slate-600 md:text-[24px] basis-[20%] flex items-center gap-[8px]">
                                 <FaAws />
-                                <span className="md:w-[120px]"> AWS </span>
+                                <span className="md:w-[120px]"> AWS</span>
                             </span>
                             <ul className="list-disc list-outside leading-6 px-[20px] md:leading-8 text-[12px] md:text-[16px] ">
                                 <li> EC2 활용하여 React 프로젝트 배포 경험 </li>
