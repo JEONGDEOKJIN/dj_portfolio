@@ -65,7 +65,7 @@ const Profile = () => {
                         className="flex items-center gap-[5px] text-slate-600"
                     >
                         <IoLogoGithub />
-                        git_JEONGDEOKJIN
+                        git_JEONGDEOKJIN.
                     </a>
                     <a href="https://deokjin.gitbook.io/dj/" className="flex items-center gap-[5px] text-slate-600">
                         <FaBlogger />
