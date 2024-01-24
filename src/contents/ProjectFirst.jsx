@@ -13,7 +13,7 @@ const ProjectFirst = ({ toggleModal }) => {
                 <div className="w-full md:w-[420px] cursor-pointer">
                     <img
                         onClick={toggleModal}
-                        src={process.env.PUBLIC_URL + '/admin_main.jpg'}
+                        src={process.env.PUBLIC_URL + '/STO_VERSION_6.gif'}
                         className="w-full"
                         alt="기업 협약 프로젝트"
                     />

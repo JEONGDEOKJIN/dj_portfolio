@@ -17,9 +17,9 @@ import ProjectThird from './ProjectThird'
 import RenderCarousel from './CarouselDetail'
 import ModalDetail_1 from './STOproject/ModalDetail_1'
 import ModalDetail_2 from './STOproject/ModalDetail_2'
-import ModalDetail_3 from './STOproject/ModalDetail_3'
-import ModalDetail_4 from './STOproject/ModalDetail_4'
-import ModalDetail_5 from './STOproject/ModalDetail_5'
+// import ModalDetail_3 from './STOproject/ModalDetail_3'
+// import ModalDetail_4 from './STOproject/ModalDetail_4'
+// import ModalDetail_5 from './STOproject/ModalDetail_5'
 import ModalNobrokerDetail_2 from './NobrokerProject/ModalNobrokerDetail_2'
 import ModalNobrokerDetail_3 from './NobrokerProject/ModalNobrokerDetail_3'
 import ModalNobrokerDetail_4 from './NobrokerProject/ModalNobrokerDetail_4'
@@ -83,7 +83,7 @@ const Projects = () => {
                         <ModalDetail_2 />
                         <ModalDetail_3 />
                         <ModalDetail_4 />
-                        <ModalDetail_5 />
+                        {/* <ModalDetail_5 /> */}
                     </Carousel>
                                         
                 </div>
